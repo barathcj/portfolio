@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Carousel Inside Modal Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Bootstrap -->
+<link href="bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+<link href="customtest.css" rel="stylesheet" media="screen" type="text/css">
+</head>
+
+<body>
+<h1>Carousel inside a modal demo</h1>
+<h2>Using Twitter bootstrap 3</h2><!-- Button trigger modal -->
+<a data-toggle="modal" id="image-modal" href="#myModal" class=""><img src="imgs/nfc1.jpg"></a> <!-- Modal -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+<div class="modal-body">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active"><img src="http://lorempixel.com/400/200"></div>
+
+<div class="item"><img src="http://lorempixel.com/400/200/sports/"></div>
+
+<div class="item"><img src="http://lorempixel.com/g/400/200/"></div>
+</div><!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a>
+</div>
+</div><!-- End Carousel Code -->
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- JavaScript plugins (requires jQuery) --><script src="http://code.jquery.com/jquery.js" type="text/javascript">
+</script><!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap.js" type="text/javascript">
+</script><!-- Optionally enable responsive features in IE8 -->
+<script src="js/respond.js" type="text/javascript">
+</script><!-- Starts Carousel Automatically -->
+<script type="text/javascript">
+$( document ).ready(function() {
+$('.carousel').carousel()
+});
+</script>
+</body>
+</html>
