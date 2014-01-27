@@ -6052,11 +6052,14 @@ button.close {
   padding: 20px;
 }
 
+
 .modal-footer {
+  font-family: arial,helvetica;
+  color: #333;
   padding: 19px 20px 20px;
   margin-top: 15px;
   text-align: left;
-  border-top: 1px solid #e5e5e5;
+ /* border-top: 1px solid #e5e5e5;*/
 }
 
 .modal-footer:before,
@@ -6420,7 +6423,7 @@ button.close {
 .carousel-control {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   width: 15%;
   font-size: 20px;
