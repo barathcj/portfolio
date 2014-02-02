@@ -31,7 +31,8 @@
 		$(document).ready(function() {
 			var pepe = $.fn.fullpage({
 				resize: false,
-				slidesColor: ['#1bbc9b', '#656565', '#7BAABE', 'whitesmoke', '#ccddff'],
+				//slidesColor: ['#1bbc9b', '#656565', '#7BAABE', 'whitesmoke', '#ccddff'],
+				slidesColor: ['#1bbc9b', '#ddd', '#ddd', '#656565', '#ccddff'],
 				anchors: ['Home', 'Work', 'Play', 'Contact', 'lastPage'],
 				menu: '#menu'
 			});
@@ -66,7 +67,8 @@
 
 <div class="section " id="section0">
 <!--	<h1>portfolio</h1> -->
-	<img src="imgs/barath.png" height="200px" />
+	<img src="imgs/barath.png" height="200px" /><br>
+	<br>
 	<p>Barath Jawahar</p>
 	<p>Designer. Engineer. </p>
 	<p><a href="docs/resume.pdf">My CV</a></p>
@@ -86,7 +88,7 @@
     <a data-toggle="modal" id="image-modal" href="#myModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>  <a href="http://barathcj.github.io/hackcmu/" rel="tooltip" title="Visit Website" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
     
 	</div> -->
-	<div class="caption-btm">TANGO</div>
+	<div class="caption-btm"><b>TANGO</b></div>
 	<a data-toggle="modal" id="image-modal" href="#myModal" rel="tooltip"><img class="img-responsive" src="imgs/hackcmu2.png"/></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -162,7 +164,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#nfcModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a> 
     </p>
 	</div>-->
-	<div class="caption-btm">e-retail store</div>
+	<div class="caption-btm">E-RETAIL STORE</div>
 	<a data-toggle="modal" id="image-modal" href="#akshayModal" rel="tooltip"><img class="img-responsive" src="imgs/akshay.jpg"  height="100px"  /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -325,7 +327,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#soccerModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">Soccer</div>
+	<div class="caption-btm">SOCCER</div>
 	<a data-toggle="modal" id="image-modal" href="#soccerModal" rel="tooltip"><img  src="imgs/Soccer.jpg" alt="Travel" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -339,7 +341,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#soccerModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">Junkyard Wars</div>
+	<div class="caption-btm">JUNKYARD WARS</div>
 	<a data-toggle="modal" id="image-modal" href="#junkModal" rel="tooltip"><img  src="imgs/junkyard.png" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -402,11 +404,14 @@
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a>
 </div>
-<p class="modal-text">
+<p>
 <b>Tango</b> is a prototype for a news website created for HackCMU. It presents news in different layouts based on the distance the viewer is from the screen.
-It uses the web camera to judge estimates the distance of the user's face from the screen. Based on the distance it has three different layouts (detail view, browse
+It uses a web camera to estimate the distance of the user's face from the screen. Based on the distance it has three different layouts (detail view, browse
 view and full screen video) Tango was awarded the 'Most Innovative Project' at HackCMU 2013.</p>
 </div><!-- End Carousel Code, modal body -->
+<div class="modal-footer">
+<button type="button" class="btn btn-success" onclick="window.location.href='http://barathcj.github.io/hackcmu/'">Visit site</button>
+   </div>
 </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
@@ -436,14 +441,18 @@ view and full screen video) Tango was awarded the 'Most Innovative Project' at H
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-sortaway" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-sortaway" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
-<b>sortAway - An exciting new way to search</b> 
+<p>
+<b>SortAway - An exciting new way to search</b> 
 SortAway is a website which aims to help users make quicker and better consumer decisions. It's currently targeted at the bludgeoning
 phone market in India and automatically chooses the model that best fits the user's requirements. 
-We expect a beta version of the site to released by march 2014.
+We expect a beta version of the site to released by march 2014.</p>
+</div><!-- End Carousel Code, modal body -->
+<div class="modal-footer">
+<button type="button" class="btn btn-success" onclick="window.location.href='http://sortaway.appspot.com/'">Visit site</button>
    </div>
+
+
+   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div>
@@ -474,11 +483,10 @@ We expect a beta version of the site to released by march 2014.
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-ddl" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-ddl" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-</br>
+<!-- End Carousel Code, modal body -->
+<p>
 I interned Oracle Financial Services Software Limited (OFSSL) where I enhanced, supported and devoloped tools used by the 
-development and the test team. I used ASP.NET to design the user interface and a combination of VB.NET, javascript and SQL to process user data.
+development and the test team. I used ASP.NET to design the user interface and a combination of VB.NET, javascript and SQL to process user data.</p>
    </div>
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
@@ -496,26 +504,19 @@ development and the test team. I used ASP.NET to design the user interface and a
 
 <ol class="carousel-indicators">
     <li data-target="#carousel-tickolo" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-tickolo" data-slide-to="1"></li>
-    <li data-target="#carousel-tickolo" data-slide-to="2"></li>
   </ol>
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/.png"></div>
-
-<div class="item"><img class="img-responsive" src="imgs/hackcmu2.png"></div>
-
-<div class="item"><img class="img-responsive" src="imgs/hackcmu3.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/tickolo.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-tickolo" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-tickolo" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
+<!-- End Carousel Code, modal body -->
+<p>
 <br>
 <b>Tickolo</b> is a prototype for a ticket exchange platform in which users can buy and sell spare tickets at less than face value. This system is ideal
-for people looking for last minute ticket deals. This app currently works on the android platform and a beta version will be launched by the end of January 2014.
-   </div>
+for people looking for last minute ticket deals. This app currently works on the android platform and a beta version will be launched by the end of January 2014.</p>
+</div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -542,8 +543,7 @@ for people looking for last minute ticket deals. This app currently works on the
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/akshay.jpg"></div>
-<div class="item"><img class="img-responsive" src="imgs/akshay1.jpg"></div>
+<div class="item active"><img class="img-responsive" src="imgs/akshay1.jpg"></div>
 <div class="item"><img class="img-responsive" src="imgs/akshay3.jpg"></div>
 <div class="item"><img class="img-responsive" src="imgs/akshay4.jpg"></div>
 <div class="item"><img class="img-responsive" src="imgs/akshay6.jpg"></div>
@@ -551,16 +551,10 @@ for people looking for last minute ticket deals. This app currently works on the
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-akshay" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-akshay" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
-
-akshay Based Mobile Device Management
-
-There is a need to control a user’s mobile phone inside an office, museum, research lab, theatre etc. 
-Some companies would like their employees to not use the mobile camera inside office, or a cinema hall 
-can have a policy to not let viewers record the movie. During my time at Samsung, we proposed an efficient and fast method by which a mobile device can be controlled inside a particular premise via near field communication 
-(akshay). We also proposed that there is scope of development of a standard message exchange protocol for policy enforcement over akshay channel.
+<!-- End Carousel Code, modal body -->
+<p>
+For the supermarket located in my university, I was part of a group which made an online shopping site. The website was based of the popular
+oscommerce platform. I was the UX lead in our 3 man group and handled front end development of the website.</p>
 
    </div>
 </div><!-- /.modal-content -->
@@ -583,19 +577,18 @@ can have a policy to not let viewers record the movie. During my time at Samsung
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/spam1.jpg"></div>
+<div class="item active"><img class="img-responsive" src="imgs/spam1.jpg" ></div>
 </div><!-- Controls -->
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
+<!-- End Carousel Code, modal body -->
+<p>
 <br>
 At Samsung, I was part of a team which developed a client side <b>BAYESIAN SPAM FILTER</b>
 It was designed to optimize storage space by utilizing time frame distribution and blacklisted domains to preset the attributes of Naïve
  Bayesian classification. This mechanism also aims at reducing the scope of tokenization of email,
  SMS messages based on the training data thereby reducing the power consumption
  related to processing of messages in the Android OS.
-
-   </div>
+</p></div>
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -626,14 +619,13 @@ It was designed to optimize storage space by utilizing time frame distribution a
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-brochure" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-brochure" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+<p>
 Oasis/Apogee marketing brochure
 
 Oasis and Apogee are the two major annual cultural and technical festivals in BITS, Pilani. I designed the the sponsorship brochure in 2009 for both of them. 
 The slideshow above shows some of the pages in the brochure which aims to give sponsors a picture of the festival and it's events. 
-The brochures where designed using Adobe Photoshop. The full brochure can be downloaded through the link on the right.
+The brochures where designed using Adobe Photoshop. The full brochure can be downloaded through the link on the right.</p>
 
    </div>
 </div><!-- /.modal-content -->
@@ -656,15 +648,14 @@ The brochures where designed using Adobe Photoshop. The full brochure can be dow
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/poster-pic.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/poster-pic.png"></div>
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-poster" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-poster" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+<p>
 
-I made this poster for a design class at CMU. The poster was made using Adobe photoshop and Illustrator and is poster for an architectural conference.
+I made this poster for a design class at CMU. The poster was made using Adobe photoshop and Illustrator and is poster for an architectural conference.</p>
 
    </div>
 </div><!-- /.modal-content -->
@@ -687,17 +678,16 @@ I made this poster for a design class at CMU. The poster was made using Adobe ph
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/ixdf-pic.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/ixdf-pic.png"></div>
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-ipad" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-ipad" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+<p>
 
-I made this poster for a design class at CMU. The poster was made using Adobe photoshop and Illustrator and is poster for an architectural conference.
-
-   </div>
+As part of my design course at CMU, I designed an ipad travel magazine. The magazine was made using Adobe photoshop and inDesign. The magazine aims to target
+hitchhikers who make last minute travel plans. </p>
+</div>
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -718,13 +708,12 @@ I made this poster for a design class at CMU. The poster was made using Adobe ph
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/travel.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/travel.png"></div>
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-travel" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-travel" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+
 I love to travel and would like to do so more frequently! This map shows the countries I have visited. A more interactive map can be viewed at 
 https://www.zeemaps.com/edit/ML8aTpFvaX7ZVYnawJUAzg 
    </div>
@@ -748,13 +737,12 @@ https://www.zeemaps.com/edit/ML8aTpFvaX7ZVYnawJUAzg
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/theatre.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/theatre.png"></div>
 </div><!-- Controls -->
 <a class="left carousel-control" href="#carousel-theatre" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-theatre" data-slide="next"></a>
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+
 I was the joint secretery of the English Drama Club when I was at BITS, Pilani. It was a great time, and I was involved with directing, acting and 
 backstage work for numerous plays.
    </div>
@@ -779,12 +767,11 @@ backstage work for numerous plays.
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/doobdoob.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/doobdoob.png"></div>
 </div><!-- Controls -->
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+
 "Doob Doob" is simple game I built while experimenting with Unity game engine. The aim of the game is to keep the ball from falling by landing on the
 horizontal panels.
    </div>
@@ -809,18 +796,14 @@ horizontal panels.
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/hardware.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/hardware.png"></div>
 </div><!-- Controls -->
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+
 As part of the embedded software systems course, I was part of a two member group who designed a two player 'Bouncing Ball' game.
  We designed the hardware layout through Proteus Isis Professional, and used the Keil compiler for compiling the programme written in C. 
- Isis provides a functinality by which the software can be linked to the hardware. 
-The C code which we wrote for the programme runs on the '' processor we used.
 The aim of the game is to keep the ball in play by not letting it hit the horizontal edges of the screen.
- The two players have to play 5 games after which the winner is decided. 
    </div>
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
@@ -842,14 +825,13 @@ The aim of the game is to keep the ball in play by not letting it hit the horizo
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" src="imgs/popbox.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/popbox.png"></div>
 </div><!-- Controls -->
 </div>
-</div><!-- End Carousel Code, modal body -->
-<div class="modal-footer">
-<br>
+<!-- End Carousel Code, modal body -->
+<p>
 Popbox is our team for the MHCI capstone project. We will be working with Panasonic to help create a digital assistant to help children with special needs.
-This project in ongoing and the pictures above show pictures of our initial work and brochure. 
+This project in ongoing and the pictures above show pictures of our initial work and brochure. </p>
    </div>
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
