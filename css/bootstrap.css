@@ -6391,6 +6391,14 @@ button.close {
 height: 420px;
 }
 
+.carousel-inner > .item  > .middle{
+height: 380px;
+}
+
+.carousel-inner > .item  > .tall{
+height: 440px;
+}
+
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
