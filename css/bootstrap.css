@@ -347,7 +347,9 @@ img {
 }
 
 .img-rounded {
-  border-radius: 6px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 34px;
 }
 
 .img-thumbnail {
@@ -2487,7 +2489,7 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-success {
   color: #ffffff;
-  background-color: #5cb85c;
+  background-color: #f36621;
   border-color: #4cae4c;
 }
 
@@ -5270,7 +5272,7 @@ a.list-group-item.active > .badge,
   line-height: 1.428571429;
   background-color: #ffffff;
   border: 0px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 20px;
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
 }
@@ -5282,6 +5284,7 @@ a.list-group-item.active > .badge,
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 16px;
 }
 
 a.thumbnail:hover,
@@ -5309,14 +5312,15 @@ a.thumbnail.active {
     }
 
 .caption-btm{
+  display: none;
   background: rgba(0,0,0,0.7);
   left: 15px;
   right: 15px;
   height: 30px;
   position: absolute;
   bottom: 20px;
-  color: #b0b02e;
-  font-weight: bold;
+  color: #f36621;
+  border-radius: 0 0 16px 16px;
 }
 
 .thumbnail .caption {
@@ -6050,14 +6054,14 @@ button.close {
 
 .modal-body {
   position: relative;
-  padding: 20px;
+  padding: 10px;
 }
 
 
 .modal-footer {
   font-family: arial,helvetica;
   color: #333;
-  padding: 19px 20px 20px;
+  padding: 10px 20px 20px;
   margin-top: 15px;
   text-align: left;
   border-top: 1px solid #e5e5e5;
@@ -6378,7 +6382,7 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  height: 360px;
+  height: 340px;
   max-width: 100%;
   line-height: 1;
 }
