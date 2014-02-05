@@ -82,6 +82,14 @@ p{
 	color: rgba(0,0,0,0.7);
 	
 }
+
+.shiftright{
+text-align: right;
+}
+.orange{
+color: #f36621;
+}
+
 .modal-body img{
 padding: 0px 0px 20px 0px;
 border: 0;

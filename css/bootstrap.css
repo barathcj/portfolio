@@ -2490,7 +2490,7 @@ fieldset[disabled] .btn-danger.active {
 .btn-success {
   color: #ffffff;
   background-color: #f36621;
-  border-color: #4cae4c;
+  /*border-color: #000000;*/
 }
 
 .btn-success:hover,
@@ -2499,8 +2499,8 @@ fieldset[disabled] .btn-danger.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #47a447;
-  border-color: #398439;
+  background-color: #c5551e;
+ /* border-color: #398439;*/
 }
 
 .btn-success:active,
@@ -6054,14 +6054,14 @@ button.close {
 
 .modal-body {
   position: relative;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 
 .modal-footer {
   font-family: arial,helvetica;
   color: #333;
-  padding: 10px 20px 20px;
+  padding: 10px 20px 10px;
   margin-top: 15px;
   text-align: left;
   border-top: 1px solid #e5e5e5;
