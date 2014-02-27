@@ -130,8 +130,8 @@ background-size: cover;
 	color: #000;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
-	-webkit-border-radius: 10px; 
-            border-radius: 10px; 
+	-webkit-border-radius: 7px; 
+            border-radius: 7px; 
 }
 #menu li.active{
 	background:#666;

@@ -349,7 +349,7 @@ img {
 .img-rounded {
   height: auto;
   max-width: 100%;
-  border-radius: 34px;
+  border-radius: 7px;
 }
 
 .img-thumbnail {
