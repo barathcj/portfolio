@@ -4,10 +4,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
 	<title>Portfolio</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage plugin by Alvaro Trigo. Create fullscreen pages fast and simple. One page scroll like iPhone website." />
-	<meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full,iphone5,apple" />
-	<meta name="Resource-type" content="Document" />
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -59,11 +55,11 @@
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-<ul id="menu">
-	<li data-menuanchor="Home"><a href="#Home">Home</a></li>
-	<li data-menuanchor="Work"><a href="#Work">Work</a></li>
-	<li data-menuanchor="Play"><a href="#Play">Play</a></li>
-	<li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+<ul id="menu" align="center">
+	<li data-menuanchor="Home"><a href="#Home" style="color: #f36621">Home</a></li>
+	<li data-menuanchor="Work"><a href="#Work" style="color: #f36621">Work</a></li>
+	<li data-menuanchor="Play"><a href="#Play" style="color: #f36621">Play</a></li>
+	<li data-menuanchor="Contact"><a href="#Contact" style="color: #f36621">Contact</a></li>
 </ul>
 
 <div class="section " id="section0">
@@ -71,13 +67,13 @@
 	<img src="imgs/barath.png" height="200px" /><br>
 	<br>
 	<h3>Barath Jawahar</h3>
-	<a class="orange" href="docs/resume-new.pdf" style="text-decoration:none;" target="_blank">My CV</a>
+	<a class="orange" href="docs/resume-new.pdf" style="text-decoration:none;" target="_blank">My Resume</a>
 <!--	<img src="imgs/fullPage.png" alt="fullPage" /> --> 
 </div>
 <div class="section" id="section1">
     <div class="slide">
 		<div class="intro">
-			<h3>Technology</h3>
+
 			<br><br>
 			
 			<div class="row">
@@ -102,7 +98,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#sortawayModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>  <a href="http://sortaway.appspot.com/" rel="tooltip" title="Visit Website" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">SORTAWAY</div>
+	<div class="caption-btm"><b>SORTAWAY</b></div>
 	<a data-toggle="modal" id="image-modal" href="#sortawayModal" rel="tooltip"><img class="img-responsive" src="imgs/sortaway1.png" alt="Tango" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -113,11 +109,11 @@
   <div class="col-sm-6 col-md-2">
     <div class="thumbnail">
 	<!--<div class="caption-full">
-    <p><a data-toggle="modal" id="image-modal" href="#spamModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
+    <p><a data-toggle="modal" id="image-modal" href="#callModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">MOBILE SPAM FILTER</div>
-	<a data-toggle="modal" id="image-modal" href="#spamModal" rel="tooltip"><img class="img-thumbnail" src="imgs/spam.png"  "  /></a>
+	<div class="caption-btm"><b>CALL VIZ</b></div>
+	<a data-toggle="modal" id="image-modal" href="#callModal" rel="tooltip"><img class="img-thumbnail" src="imgs/callviz1.png"/></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
     -->  
@@ -125,18 +121,17 @@
   </div>
   
   
-  <div class="col-sm-6 col-md-2">
-  <div class="thumbnail">
-	<div class="caption-btm">UNITY GAME</div>
-	<a data-toggle="modal" id="image-modal" href="#doobdoobModal" rel="tooltip"><img class="img-responsive" src="imgs/doobdoob.png"/></a>
-     <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
-		distance the viewer is from the screen.
-    -->  
+ <div class="col-md-2">
+    <div class="thumbnail">
+      <!--<div class="caption-full">
+    <p><a data-toggle="modal" id="image-modal" href="#posterModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="docs/poster.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
+    </p>
+	</div>-->
+	<div class="caption-btm"><b>HYKE</b></div>
+	<a data-toggle="modal" id="hyke-modal" href="#hykeModal" rel="tooltip"><img class="img-responsive" src="imgs/hyke.png"/></a>
     </div>
-   <!-- <div class="thumbnail">
-      <iframe src="http://www.youtube.com/embed/Za_wFTr0KKY" frameborder="0" allowfullscreen></iframe>
-    </div> -->
   </div>
+ 
   
 </div>
 
@@ -150,27 +145,27 @@
     <p><a data-toggle="modal" id="image-modal" href="#tickoloModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a> 
     </p>
 	</div>-->
-	<div class="caption-btm">TICKOLO</div>
+	<div class="caption-btm"><b>TICKOLO</b></div>
 	<a data-toggle="modal" id="image-modal" href="#tickoloModal" rel="tooltip"><img class="img-responsive" src="imgs/tickolo.png"  height="100px" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
     -->  
     </div>
   </div>
+
   
-    <div class="col-sm-6 col-md-2">
-    <div class="thumbnail">
-	<!--<div class="caption-full">
-    <p><a data-toggle="modal" id="image-modal" href="#nfcModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a> 
+  
+    <div class="col-md-2">
+		<div class="thumbnail">
+	<!--	<div class="caption-full">
+    <p><a data-toggle="modal" id="image-modal" href="#ipadModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a><a href="docs/ipad.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a> 
     </p>
 	</div>-->
-	<div class="caption-btm">E-RETAIL STORE</div>
-	<a data-toggle="modal" id="image-modal" href="#akshayModal" rel="tooltip"><img class="img-responsive" src="imgs/akshay.jpg"  height="100px"  /></a>
-     <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
-		distance the viewer is from the screen.
-    -->  
-    </div>
-  </div>
+	<div class="caption-btm"><b>IPAD MAGAZINE</b></div>
+	<a data-toggle="modal" id="image-modal" href="#ipadModal" rel="tooltip"><img class="img-responsive" src="imgs/ixdf-pic.png" alt="Tango" /></a>
+		</div>
+		</div>
+  
   
     
   <div class="col-sm-6 col-md-2">
@@ -179,8 +174,8 @@
     <p><a data-toggle="modal" id="image-modal" href="#sortawayModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>  <a href="http://sortaway.appspot.com/" rel="tooltip" title="Visit Website" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">DATA MODELLING</div>
-	<a data-toggle="modal" id="image-modal" href="#ddlModal" rel="tooltip"><img class="img-responsive" src="imgs/ddl.png" alt="Tango" /></a>
+	<div class="caption-btm"><b>BICYCLE AIR MONITORING</b></div>
+	<a data-toggle="modal" id="image-modal" href="#bamModal" rel="tooltip"><img class="img-responsive" src="imgs/cycle1.png" alt="Tango" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
     -->  
@@ -188,23 +183,16 @@
   </div>
 	
 	
-  <div class="col-md-2">
-  <div class="thumbnail">
-	<!--<div class="caption-full">
-    <p><a data-toggle="modal" id="image-modal" href="#sortawayModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>  <a href="http://sortaway.appspot.com/" rel="tooltip" title="Visit Website" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
+  <div class="col-sm-6 col-md-2">
+   <div class="thumbnail">
+	<!--	<div class="caption-full">
+    <p><a data-toggle="modal" id="image-modal" href="#ipadModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a><a href="docs/ipad.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a> 
     </p>
 	</div>-->
-	<div class="caption-btm">HARDWARE PROTOTYPE</div>
-	<a data-toggle="modal" id="image-modal" href="#hardwareModal" rel="tooltip"><img class="img-responsive" src="imgs/hardware.png"/></a>
-     <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
-		distance the viewer is from the screen.
-    -->  
-    </div>
-  
-  <!--  <div class="thumbnail">
-		<iframe src="http://www.youtube.com/embed/al3KOw3DB-A" frameborder="0" allowfullscreen></iframe>
-    </div>-->
-  </div> 
+	<div class="caption-btm"><b>POP BOX</b></div>
+	<a data-toggle="modal" id="image-modal" href="#popModal" rel="tooltip"><img class="img-responsive" src="imgs/popbox.png" alt="Tango" /></a>
+		</div>
+  </div>
 		
 
 </div>
@@ -216,7 +204,7 @@
 	</div>
 	<div class="slide">
 		<div class="intro">
-			<h3>Design</h3>
+		
 			<br><br>
 			<div class="row">
 			
@@ -226,7 +214,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#posterModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="docs/poster.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">POSTER DESIGN</div>
+	<div class="caption-btm"><b>POSTER DESIGN</b></div>
 	<a data-toggle="modal" id="image-modal" href="#posterModal" rel="tooltip"><img class="img-responsive" src="imgs/poster-pic.png" alt="Tango" /></a>
     </div>
   </div>
@@ -237,44 +225,72 @@
     <p><a data-toggle="modal" id="image-modal" href="#brochureModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a><a href="docs/brochure.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a> 
     </p>
 	</div>-->
-	<div class="caption-btm">MARKETING</div>
+	<div class="caption-btm"><b>BROCHURES</b></div>
 	<a data-toggle="modal" id="image-modal" href="#brochureModal" rel="tooltip"><img class="img-responsive" src="imgs/brochure1.png" alt="Tango" /></a>
     </div>
   </div>
-    <div class="col-md-2">
-		<div class="thumbnail">
-	<!--	<div class="caption-full">
-    <p><a data-toggle="modal" id="image-modal" href="#ipadModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a><a href="docs/ipad.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a> 
-    </p>
-	</div>-->
-	<div class="caption-btm">IPAD MAGAZINE</div>
-	<a data-toggle="modal" id="image-modal" href="#ipadModal" rel="tooltip"><img class="img-responsive" src="imgs/ixdf-pic.png" alt="Tango" /></a>
-		</div>
-		</div>
   
+    
     <div class="col-sm-6 col-md-2">
-   <div class="thumbnail">
-	<!--	<div class="caption-full">
-    <p><a data-toggle="modal" id="image-modal" href="#ipadModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a><a href="docs/ipad.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a> 
+    <div class="thumbnail">
+	<!--<div class="caption-full">
+    <p><a data-toggle="modal" id="image-modal" href="#nfcModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a> 
     </p>
 	</div>-->
-	<div class="caption-btm">POP BOX</div>
-	<a data-toggle="modal" id="image-modal" href="#popModal" rel="tooltip"><img class="img-responsive" src="imgs/popbox.png" alt="Tango" /></a>
-		</div>
+	<div class="caption-btm"><b>E-RETAIL STORE</b></div>
+	<a data-toggle="modal" id="image-modal" href="#akshayModal" rel="tooltip"><img class="img-responsive" src="imgs/akshay.jpg"  height="100px"  /></a>
+     <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
+		distance the viewer is from the screen.
+    -->  
+    </div>
   </div>
-
+  
+   <div class="col-md-2">
+  <div class="thumbnail">
+	<!--<div class="caption-full">
+    <p><a data-toggle="modal" id="image-modal" href="#sortawayModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>  <a href="http://sortaway.appspot.com/" rel="tooltip" title="Visit Website" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
+    </p>
+	</div>-->
+	<div class="caption-btm"><b>HARDWARE PROTOTYPE</b></div>
+	<a data-toggle="modal" id="image-modal" href="#hardwareModal" rel="tooltip"><img class="img-responsive" src="imgs/hardware.png"/></a>
+     <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
+		distance the viewer is from the screen.
+    -->  
+    </div>
+  
+  <!--  <div class="thumbnail">
+		<iframe src="http://www.youtube.com/embed/al3KOw3DB-A" frameborder="0" allowfullscreen></iframe>
+    </div>-->
+  </div> 
   
   
 </div>  
 <div class="row">
-<div class="col-md-2 col-md-offset-2">
+
+ <div class="col-sm-6 col-md-2  col-md-offset-2">
+  <div class="thumbnail">
+	<div class="caption-btm"><b>UNITY GAME</b></div>
+	<a data-toggle="modal" id="image-modal" href="#doobdoobModal" rel="tooltip"><img class="img-responsive" src="imgs/doobdoob.png"/></a>
+     <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
+		distance the viewer is from the screen.
+    -->  
+    </div>
+   <!-- <div class="thumbnail">
+      <iframe src="http://www.youtube.com/embed/Za_wFTr0KKY" frameborder="0" allowfullscreen></iframe>
+    </div> -->
+  </div>
+  
+  <div class="col-sm-6 col-md-2">
     <div class="thumbnail">
-      <!--<div class="caption-full">
-    <p><a data-toggle="modal" id="image-modal" href="#posterModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a> <a href="docs/poster.pdf" rel="tooltip" title="view pdf" class="btn btn-inverse"><span class="glyphicon glyphicon-share"></span></a>
+	<!--<div class="caption-full">
+    <p><a data-toggle="modal" id="image-modal" href="#spamModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">HYKE</div>
-	<a data-toggle="modal" id="hyke-modal" href="#hykeModal" rel="tooltip"><img class="img-responsive" src="imgs/hyke.png"/></a>
+	<div class="caption-btm"><b>MOBILE SPAM FILTER</b></div>
+	<a data-toggle="modal" id="image-modal" href="#spamModal" rel="tooltip"><img class="img-thumbnail" src="imgs/spam.png"  "  /></a>
+     <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
+		distance the viewer is from the screen.
+    -->  
     </div>
   </div>
 
@@ -297,7 +313,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#theatreModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">THEATRE</div>
+	<div class="caption-btm"><b>THEATRE</b></div>
 	<a data-toggle="modal" id="image-modal" href="#theatreModal" rel="tooltip"><img class="img-responsive" src="imgs/theatre.png" alt="Tango" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -312,7 +328,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#travelModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">TRAVEL</div>
+	<div class="caption-btm"><b>TRAVEL</b></div>
 	<a data-toggle="modal" id="image-modal" href="#travelModal" rel="tooltip"><img  src="imgs/travel.png" alt="Travel" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -326,7 +342,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#soccerModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">SOCCER</div>
+	<div class="caption-btm"><b>SOCCER</b></div>
 	<a data-toggle="modal" id="image-modal" href="#soccerModal" rel="tooltip"><img  src="imgs/Soccer.jpg" alt="Travel" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -340,7 +356,7 @@
     <p><a data-toggle="modal" id="image-modal" href="#soccerModal" class="btn btn-inverse" rel="tooltip" title="Preview"><span class="glyphicon glyphicon-eye-open"></span></a>
     </p>
 	</div>-->
-	<div class="caption-btm">JUNKYARD WARS</div>
+	<div class="caption-btm"><b>JUNKYARD WARS</b></div>
 	<a data-toggle="modal" id="image-modal" href="#junkModal" rel="tooltip"><img  src="imgs/junkyard.png" /></a>
      <!--   Tango is an interactive news website, which was built for the hackathon 'HackCMU'. The website presents news in different ways based on the 
 		distance the viewer is from the screen.
@@ -381,11 +397,17 @@
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>TANGO - A Dance of the Web</center></b>
+
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">TANGO</font></b>- A Dance of the Web</p></center>
         
       </div>
-<div class="modal-body">
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  
+
+
+<div class="modal-body row">
+<div class="col-md-7">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
 <!-- Indicators -->
 
 <ol class="carousel-indicators">
@@ -402,17 +424,47 @@
 
 <div class="item"><img src="imgs/hackcmu3.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
-<p><b class="orange">Date</b> Sep 2013  <span style="float:right;"><b class="orange">Worked with</b> Javascript, HTML, CSS </span>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Sep 2013 <br>
+<b class="orange">Worked with </b>Javascript, HTML, CSS
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Front end developer<br>
+<b class="orange">Team mates: </b><a href="http://ramyamallya.com/" target="_blank">Ramya Mallya</a>, <a href="http://cptmonac.me/" target="_blank">Ayo Olubeko</a>, <a href="http://andrele.com/" target="_blank">Andre Le</a> 
+</p></div>
+
+</div>
+<div class="col-md-5">
+<!-- End Carousel Code, modal body -->
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Tango is a prototype for a news website created for HackCMU. It is adaptive to the distance the user is from the screen and presents the news in 3 different modes.
+The user sees a detailed mode when he is close to the screen. If he leans back on his chair, he can browse through the various articles in the browse mode. 
+If he leaves his chair and is away from the screen, the website plays the news as a video.
+It uses a web camera to estimate the distance of the user's face.</p>
 <br><br>
-Tango is a prototype for a news website created for HackCMU. It presents news in 3 different layouts (detail view, browse view and full screen) based on the distance the viewer is from the screen.
-It uses a web camera to estimate the distance of the user's face. It was named the 'Most Innovative Project' at HackCMU 2013 and was created in a single day.</p>
-</div><!-- End Carousel Code, modal body -->
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Tango was made as a project for HackCMU 2013. It was made in one day and went on to win the most innovative project award!</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Tango uses a face tracking javascript library called. Through this, we were able to measure the distance of the user's face from the screen. 
+We then calliberated threshold distances, and adjusted the layout of the page based on this
+</p>
+
+</div>
+
+</div>	  
+
 <div class="modal-footer">
 <!--<button type="button" class="btn btn-success" onclick="window.location.href='http://barathcj.github.io/hackcmu/'">Visit site</button> -->
-<button type="button" class="btn btn-success" onclick="window.open('http://barathcj.github.io/hackcmu/')">Visit site</button>
 <button type="button" class="btn btn-success" onclick="window.open('http://www.youtube.com/watch?v=TCyWrsamTDM')">View Demo</button>
+<button type="button" class="btn btn-success" onclick="window.open('http://barathcj.github.io/hackcmu/')">Visit site</button>
    </div>
 </div>   
 </div><!-- /.modal-content -->
@@ -424,9 +476,13 @@ It uses a web camera to estimate the distance of the user's face. It was named t
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-      <b class="orange"><center>SORTAWAY - A New Way to Search</center></b>
-	  </div>
-<div class="modal-body">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">SORTAWAY</font></b> - A New Way to Search</p></center>
+
+      </div>
+	  
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-sortaway" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <ol class="carousel-indicators">
@@ -441,103 +497,128 @@ It uses a web camera to estimate the distance of the user's face. It was named t
 <div class="item"><img src="imgs/sortaway2.png"></div>
 <div class="item"><img src="imgs/sortaway3.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-sortaway" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-sortaway" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-sortaway" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-sortaway" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
-<p><b class="orange">Date</b> Nov 2012  <span style="float:right;"><b class="orange">Worked with </b>Python, GQL, HTML, JS/JQuery/Ajax</span>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Nov 2012 <br>
+<b class="orange">Worked with </b>Python, GQL, HTML, JS/JQuery/Ajax
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software, UI Design <br>
+<b class="orange">Team mates: </b>Ashwin Menon
+</p></div>
+
+</div>
+<div class="col-md-5">
+<!-- End Carousel Code, modal body -->
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+SortAway is a an exciting new of searching which aims to help users make quicker and better consumer decisions. Currently, it targets mobile phone buyers.
+Users can order the properties (such as brand, display, speed, camera quality) which are most important to them
+and the website automatically ranks the results based on user and expert reviews.</p>
 <br><br>
-SortAway is a website which aims to help users make quicker and better consumer decisions. It's currently targeted at the bludgeoning
-phone market in India and automatically chooses the model that best fits the user's requirements. 
-We expect a beta version of the site to released by march 2014.</p>
-</div><!-- End Carousel Code, modal body -->
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Sortaway helps people who want to buy a mobile phone, but can't be bothered with the research. With so many reviews, ratings and products available in the market, it feels like a headache every time one 
+wants to decide what to buy and where to buy it. Choice is always good,but too much of it leaves you with an overdose of information. Check out a TED talk by Barry Schwartz on the paradox of choice here</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Sortaway is currently hosted on the Google app engine. It runs on Python at the backend and uses a GQL database.
+The front end was programmed and made responsive through Jquery  and Ajax.
+</p>
+
+</div>
+
+</div>
 <div class="modal-footer">
 <button type="button" class="btn btn-success" onclick="window.open('http://sortaway.appspot.com/')"  target="_blank">Visit site</button>
-   </div>
-
-
-   
-</div><!-- /.modal-content -->
-</div><!-- /.modal-dialog -->
-</div>
-
-<div class="modal fade" id="ddlModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<b class="orange"><center>DATA MODELLING</center></b>
-      </div>
-<div class="modal-body">
-<div id="carousel-ddl" class="carousel slide" data-ride="carousel">
-<!-- Indicators -->
-
-<ol class="carousel-indicators">
-    <li data-target="#carousel-ddl" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-ddl" data-slide-to="1"></li>
-    <li data-target="#carousel-ddl" data-slide-to="2"></li>
-  </ol>
-
-<!-- Wrapper for slides -->
-<div class="carousel-inner">
-<div class="item active"><img class="middle" height="10px" src="imgs/ddl3.png"></div>
-
-<div class="item"><img class="middle" src="imgs/ddl1.png"></div>
-
-<div class="item"><img class="middle" src="imgs/ddl2.png"></div>
-</div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-ddl" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-ddl" data-slide="next"></a>
-</div>
-<!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Aug 2010  <span style="float:right;"><b class="orange">Worked with </b>SQL, VB.NET, ASP.NET, Javascript, HTML</span>
-<br><br>
-I interned Oracle Financial Services Software Limited where I enhanced, supported and devoloped tools used by the 
-development and the test team. I used ASP.NET to design the user interface and a combination of VB.NET, javascript and SQL to process and store data.</p>
-   </div>
-   <div class="modal-footer">
-   </div>
+   </div> 
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+
+
 
 <div class="modal fade" id="tickoloModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>TICKOLO - Android App for Ticket Exchange</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">TICKOLO</font></b> - An Android App for Fan to Fan Ticket Exchange</p></center>
+
       </div>
 	  
-<div class="modal-body">
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-tickolo" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
-<ol class="carousel-indicators">
-    <li data-target="#carousel-tickolo" data-slide-to="0" class="active"></li>
-  </ol>
+
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
 <div class="item active"><img class="middle" src="imgs/tickolo_2.png"></div>
 </div><!-- Controls -->
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Nov 2013 <br>
+<b class="orange">Worked with </b>Android OS, Java, PHP, SQL
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software, UI Design <br>
+<b class="orange">Team mates: </b>None
+</p></div>
+
+</div>
+<div class="col-md-5">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Nov 2013  <span style="float:right;"><b class="orange">Worked with </b>Android OS, Java, PHP, XML</span>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Tickolo is a prototype for a ticket exchange platform in which users can buy and sell spare tickets at less than face value. It was made as an assignment for the course Software Structures for User Interfaces.  This app currently works on the android platform 
+and a beta version will be launched by the end of May 2014.</p>
 <br><br>
-<b>Tickolo</b> is a prototype for a ticket exchange platform in which users can buy and sell spare tickets at less than face value. This system is ideal
-for people looking for last minute ticket deals. This app currently works on the android platform and a beta version will be launched by the end of January 2014.</p>
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Tickolo is unique in its fan-based ticket-exchange system where it places a restriction on the price of the ticket. Tickets can never be sold at prices higher than the face value thereby discouraging scalping and promoting
+good deals for people who want last minute tickets.</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Tickolo involved both client and server side programming. The backend (which is hosted on Openshift), is programmed using PHP and SQL. 
+The android client facing application was programmed using Java. 
+</p>
+
+</div>
+
 </div>
 <div class="modal-footer">
+<form method="get" action="/tickolo.html">
+    <button type="button" class="btn btn-success">Visit site</button>
+</form>
    </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
 
+
 <div class="modal fade" id="akshayModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>AKSHAY ONLINE</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">AKSHAY ONLINE</font></b> - E-retail store for the local supermarket</p></center>
+
       </div>
 	  
-<div class="modal-body">
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-akshay" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
@@ -558,28 +639,59 @@ for people looking for last minute ticket deals. This app currently works on the
 <div class="item"><img class="middle" src="imgs/akshay6.jpg"></div>
 <div class="item"><img class="middle" src="imgs/akshay8.jpg"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-akshay" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-akshay" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-akshay" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-akshay" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
-<!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Nov 2008  <span style="float:right;"><b class="orange">Worked with </b>SQL, PHP, Javascript, HTML</span>
-<br><br>
-For the supermarket located in my university, I was part of a team which made an online shopping site. The website was based of the popular
-oscommerce platform. I was the UX lead in our 3 man team and handled front end development of the website.</p>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Nov 2008 <br>
+<b class="orange">Worked with </b>SQL, PHP, Javascript, HTML
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software development<br>
+<b class="orange">Team mates: </b>Deepak, Sukrit
+</p></div>
 
-   </div>
-   <div class="modal-footer">
-   </div>
+</div>
+<div class="col-md-5">
+<!-- End Carousel Code, modal body -->
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Akshay online is an e-retail store for the local university super market at BITS, Pilani. It enables students to order groceries from the comfort of their rooms
+which would later get delivered to their rooms. This system would increase both revenue and customer satisfaction.</p>
+<br><br>
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+It was found that students preferred to go to other shops around the university rather than the university-run supermarket. The problems students faced included 
+long waiting time in queues, distance from hostels and short opening hours. We proposed and developed a solution which would circumvent all these problems. 
+</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The website was based of the popular oscommerce platform. I was the UX lead in our 3 man team and handled front end development of the website. 
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
+   </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
 
 <div class="modal fade" id="spamModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>MOBILE SPAM FILTER</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">MOBILE SPAM FILTER</font></b></p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-6">
 <div id="carousel-spam" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <!-- Wrapper for slides -->
@@ -587,27 +699,58 @@ oscommerce platform. I was the UX lead in our 3 man team and handled front end d
 <div class="item active"><img class="img-responsive" src="imgs/spam1.jpg" ></div>
 </div><!-- Controls -->
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>June 2013 <br>
+<b class="orange">Worked with </b>Android OS, Java, SQL
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software development <br>
+<b class="orange">Team mates: </b>None
+</p></div>
+
+</div>
+<div class="col-md-6">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> June 2013  <span style="float:right;"><b class="orange">Worked with </b>Android OS, Java, SQL</span>
-<br><br>
-At Samsung, I was part of a team which developed a client side <b>BAYESIAN SPAM FILTER</b>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+At Samsung, I was part of a team which developed a client side BAYESIAN SPAM FILTER
 It was designed to optimize storage space by utilizing time frame distribution and blacklisted domains to preset the attributes of Naïve
  Bayesian classification. This mechanism also aims at reducing the scope of tokenization of email,
- SMS messages based on the training data thereby reducing the power consumption of processing messages in the Android OS.
-</p></div>
+ SMS messages based on the training data thereby reducing the power consumption of processing messages in the Android OS.</p>
+<br><br>
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+A client side spam filter can be customised more to the user than systems which run on a server. Client side filters can get data through multiple sources such as
+email, sms and third party messaging platforms. A higher level of customisation would lead to a more efficient filtering process.</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The spam filter was designed for the Android platform and mainly involved programming in Java and SQL.
+</p>
+
+</div>
+
+</div>
 <div class="modal-footer">
-   </div>
+   </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
 
 <div class="modal fade" id="brochureModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>MARKETING BROCHURE DESIGN</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">MARKETING BROCHURE DESIGN</font></b></p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-brochure" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
@@ -625,28 +768,61 @@ It was designed to optimize storage space by utilizing time frame distribution a
 
 <div class="item"><img class="middle" src="imgs/brochure3.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-brochure" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-brochure" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-brochure" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-brochure" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Jan 2008 <br>
+<b class="orange">Worked with </b>Adobe photoshop
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software, UI Design <br>
+<b class="orange">Team mates: </b>None
+</p></div>
+
+</div>
+<div class="col-md-5">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Jan 2008  <span style="float:right;"><b class="orange">Worked with </b>Adobe Photoshop</span>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Oasis and Apogee are the two major annual cultural and technical festivals in BITS, Pilani. I designed the the sponsorship brochure in 2009 for both of them as part 
+of the Sponsorship and Marketing team. 
+</p>
 <br><br>
-Oasis and Apogee are the two major annual cultural and technical festivals in BITS, Pilani. I designed the the sponsorship brochure in 2009 for both of them. 
-The brochure aims to give sponsors a picture of the festival and it's events. </p>
-   </div>
-   <div class="modal-footer">
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The marketing brochure is given out to various companies seeking sponsorship of the festival. The brochure would contain details of the events and avenues 
+where companies can publicize their brand. The department of sponsorship and marketing managed to get close 20 lakhs in sponsorship for each of the festivals in 2009.</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The brochures were designed using Adobe Photoshop. Many of the pictures used were obtained through collaboration with the Department of Photography at BITS, Pilani. 
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
 <button type="button" class="btn btn-success" onclick="window.open('docs/brochure.pdf')"  target="_blank">View pdf</button>
-   </div>
+   </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+
 
 <div class="modal fade" id="posterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>EVENT POSTER DESIGN</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">EVENT POSTER DESIGN</font></b></p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-6">
 <div id="carousel-poster" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
@@ -654,56 +830,123 @@ The brochure aims to give sponsors a picture of the festival and it's events. </
 <div class="carousel-inner">
 <div class="item active"><img class="middle" src="imgs/poster-pic_c.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-poster" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-poster" data-slide="next"></a>
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Sep 2013 <br>
+<b class="orange">Worked with </b>Adobe Illustrator
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Visual Designer<br>
+<b class="orange">Team mates: </b>None
+</p></div>
+
+</div>
+<div class="col-md-6">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Sep 2013  <span style="float:right;"><b class="orange">Worked with </b>Adobe Illustrator, Photoshop</span>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+I made this poster for a design class at CMU (only part of it shown in the picture). The poster is for an architectural conference held by the Philip Johnson Colloquium at New York City.</p>
 <br><br>
-I made this poster for a design class at CMU (only part of it shown in the picture above). The poster is for an architectural conference held by the Philip Johnson Colloquium at New York City.</p>
-   </div>
-      <div class="modal-footer">
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The poster was done to get some practice and understanding of a grid layout and to get a sense </p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The poster was made using Adobe Illustrator
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
 <button type="button" class="btn btn-success" onclick="window.open('docs/poster.pdf')"  target="_blank">View pdf</button>
-   </div>
+   </div> 
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
 
 <div class="modal fade" id="ipadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>WANDERER - Travel Magazine Design</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">WANDERER</font></b> - Travel Magazine Design</p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-6">
 <div id="carousel-ipad" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
-
+<ol class="carousel-indicators">
+    <li data-target="#carousel-ipad" data-slide-to="0" class="active"></li>
+	<li data-target="#carousel-ipad" data-slide-to="1"></li>
+	<li data-target="#carousel-ipad" data-slide-to="2"></li>
+	<li data-target="#carousel-ipad" data-slide-to="3"></li>
+	<li data-target="#carousel-ipad" data-slide-to="4"></li>
+  </ol>
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
 <div class="item active"><img class="middle" src="imgs/ixdf-pic_c.png"></div>
+<div class="item"><img class="middle" src="imgs/mag1.png"></div>
+<div class="item"><img class="middle" src="imgs/mag2.png"></div>
+<div class="item"><img class="middle" src="imgs/mag3.png"></div>
+<div class="item"><img class="middle" src="imgs/mag4.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-ipad" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-ipad" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-ipad" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-ipad" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Dec 2013 <br>
+<b class="orange">Worked with </b>Adobe inDesign, Illustrator, Photoshop
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Visual Designer <br>
+<b class="orange">Team mates: </b>None
+</p></div>
+
+</div>
+<div class="col-md-6">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Dec 2013  <span style="float:right;"><b class="orange">Worked with </b>Adobe inDesign, Illustrator, Photoshop</span>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+As part of my design course at CMU, I designed an ipad travel magazine.
+'Wanderer' targets hitch-hikers who make last minute travel plans and aims to give them with good deals on their trips.</p>
 <br><br>
-As part of my design course at CMU, I designed an ipad travel magazine. The project involved competitive analysis and an iterative design process. The magazine aims to target
-hitchhikers who make last minute travel plans. </p>
+<b class="orange">WHAT WAS THE PROCESS?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Initially we were tasked to choose a target audience. After doing so, I did a competitive analysis of the various travel magazines available in the market.
+Wanderer was then designed to fit into the gaps and potential opportunity areas which were found in the analysis. </p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Wanderer was primarily designed using Adobe inDesign. 
+</p>
+
 </div>
-   <div class="modal-footer">
+
+</div>
+<div class="modal-footer">
 <button type="button" class="btn btn-success" onclick="window.open('docs/ipad.pdf')"  target="_blank">View pdf</button>
-   </div>
+   </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+
 <div class="modal fade" id="travelModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
+<div class="modal-dialogplay">
 <div class="modal-content">
 <div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <b class="orange"><center>TRAVEL</center></b>
       </div>
-<div class="modal-body">
+<div class="modal-bodyplay">
 <div id="carousel-travel" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
@@ -715,7 +958,7 @@ hitchhikers who make last minute travel plans. </p>
 <div class="carousel-inner">
 <div class="item active"><img src="imgs/travel_c.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-travel" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-travel" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-travel" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-travel" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
 <!-- End Carousel Code, modal body -->
 <p><b class="orange">Currently in</b> USA
@@ -730,19 +973,20 @@ I love to travel. This map shows all the countries that I have visited. Unfortun
 </div><!-- /.modal -->
 
 <div class="modal fade" id="theatreModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
+<div class="modal-dialogplay">
 <div class="modal-content">
 <div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 <b class="orange"><center>ENGLISH DRAMA CLUB</center></b>
       </div>
-<div class="modal-body">
+<div class="modal-bodyplay">
 <div id="carousel-theatre" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
 <div class="item active"><img class="middle" src="imgs/theatre_c.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-theatre" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-theatre" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-theatre" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-theatre" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
 <!-- End Carousel Code, modal body -->
 <p><b class="orange">Date</b> Nov 2013  <span style="float:right;"><b class="orange">Position </b>Joint Secretary</span>
@@ -757,19 +1001,20 @@ backstage work for numerous plays.</p>
 </div><!-- /.modal -->
 
 <div class="modal fade" id="junkModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
+<div class="modal-dialogplay">
 <div class="modal-content">
 <div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 <b class="orange"><center>JUNKYARD WARS</center></b>
       </div>
-<div class="modal-body">
+<div class="modal-bodyplay">
 <div id="carousel-junk" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
 <div class="item active"><img src="imgs/junk1.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-junk" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-junk" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-junk" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-junk" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
 <!-- End Carousel Code, modal body -->
 <p><b class="orange">Date</b> March 2012  <span style="float:right;"><b class="orange">Skills </b>Improvising!</span>
@@ -787,12 +1032,13 @@ backstage work for numerous plays.</p>
 </div><!-- /.modal -->
 
 <div class="modal fade" id="soccerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
+<div class="modal-dialogplay">
 <div class="modal-content">
 <div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 <b class="orange"><center>SOCCER</center></b>
       </div>
-<div class="modal-body">
+<div class="modal-bodyplay">
 <div id="carousel-soccer" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <!-- Wrapper for slides -->
@@ -800,7 +1046,7 @@ backstage work for numerous plays.</p>
 <div class="item active"><img src="imgs/soccer1.jpg"></div>
 <div class="item"><img src="imgs/soccer2.jpg"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-soccer" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-soccer" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-soccer" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-soccer" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
 <!-- End Carousel Code, modal body -->
 <p><b class="orange">Favourite teams</b> Manchester United, Real Madrid
@@ -815,13 +1061,18 @@ numerous competitions. The pictures above were taken after we won the corporate 
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+
 <div class="modal fade" id="doobdoobModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>EXPERIMENTING WITH UNITY GAME ENGINE</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">EXPERIMENTING WITH UNITY GAME ENGINE</font></b></p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-doobdoob" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <!-- Wrapper for slides -->
@@ -829,15 +1080,40 @@ numerous competitions. The pictures above were taken after we won the corporate 
 <div class="item active"><img class="middle" src="imgs/doobdoob_c.png"></div>
 </div><!-- Controls -->
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Dec 2011 <br>
+<b class="orange">Worked with </b>Unity Game Engine, Javascript
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software developer <br>
+<b class="orange">Team mates: </b>None
+</p></div>
+
+</div>
+<div class="col-md-5">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Dec 2011  <span style="float:right;"><b class="orange">Worked with </b>Unity Game Engine, Javascript</span>
-<br><br>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
 "Doob Doob" is a simple game I built while experimenting with Unity game engine. The aim of the game is to keep the ball from falling by landing on the
 horizontal panels.</p>
-   </div>
-      <div class="modal-footer">
+<br><br>
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+I just wanted to try out the Unity game engine. It was a lot of fun! :)</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Most of the game is programmed using Javascript. The game is currently rendered using the Unity software but can be easily transferred to a mobile or a web platform
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
 <button type="button" class="btn btn-success" onclick="window.open('http://www.youtube.com/watch?v=Za_wFTr0KKY')"  target="_blank">View Demo</button>
-   </div>
+   </div> 
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -847,9 +1123,13 @@ horizontal panels.</p>
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>HARDWARE DESIGN OF A VIDEO GAME</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">HARDWARE DESIGN OF A VIDEO GAME</font></b></p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-hardware" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
@@ -858,27 +1138,135 @@ horizontal panels.</p>
 <div class="item active"><img class="middle" src="imgs/hardware_c.png"></div>
 </div><!-- Controls -->
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Feb 2011 <br>
+<b class="orange">Worked with </b>Proteus, C
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software developer <br>
+<b class="orange">Team mates: </b>Siddharth Singh
+</p></div>
+
+</div>
+<div class="col-md-5">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Feb 2011  <span style="float:right;"><b class="orange">Worked with </b>Proteus, C</span>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+I was part of a two member team who designed a two player 'Bouncing Ball' game. 
+Players need to keep the ball in play by not letting it hit the horizontal screen edges. </p>
 <br><br>
-I was part of a two member team who designed a two player 'Bouncing Ball' game.
-The hardware layout was designed through Proteus Isis Professional, and the programme was written in C. 
-Players need to keep the ball in play by not letting it hit the horizontal screen edges.
-  </p> </div>
-     <div class="modal-footer">
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Bouncing Ball was made during my last semester at BITS, Pilani as the final project for the course 'Software for embedded systems'.
+Through this project we learnt a lot about programming a simple game in C and interfacing it to a microcontroller</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The hardware layout was designed through Proteus Isis Professional, and the programme was written in C.
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
 <button type="button" class="btn btn-success" onclick="window.open('http://www.youtube.com/watch?v=al3KOw3DB-A')"  target="_blank">View Demo</button>
-   </div>
+   </div>  
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
 
 <div class="modal fade" id="popModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>CAPSTONE PROJECT</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">CAPSTONE PROJECT</font></b></p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-6">
+<div id="carousel-pop" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+
+<ol class="carousel-indicators">
+    <li data-target="#carousel-pop" data-slide-to="0" class="active"></li>
+	<li data-target="#carousel-pop" data-slide-to="1"></li>
+	<li data-target="#carousel-pop" data-slide-to="2"></li>
+	<li data-target="#carousel-pop" data-slide-to="3"></li>
+	<li data-target="#carousel-pop" data-slide-to="4"></li>
+	<li data-target="#carousel-pop" data-slide-to="5"></li>
+  </ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active"><img src="imgs/popbox1.png"></div>
+<div class="item"><img src="imgs/pop1.jpg"></div>
+<div class="item"><img src="imgs/pop2.jpg"></div>
+<div class="item"><img src="imgs/pop3.jpg"></div>
+<div class="item"><img src="imgs/pop4.jpg"></div>
+<div class="item"><img src="imgs/pop5.jpg"></div>
+</div><!-- Controls -->
+<a class="left carousel-control" href="#carousel-pop" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-pop" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+</div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>Jan 2014 <br>
+<b class="orange">Methods:</b> Literature review, Affinity Diagramming, Contextual Inquiry, Expert Interviews, Family Story Telling
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>User Experience Lead<br>
+<b class="orange">Team mates: </b><a http://www.hcii.cmu.edu/people/bhci/caroline-record" target="_blank">Caroline</a>, <a href="http://montselobos.com" target="_blank">Montse</a>, <a href="http://www.nikhilpopat.com/" target="_blank">Nikhil</a>, <a href="http://www.hcii.cmu.edu/people/mhci/linus-chang" target="_blank">Linus</a>
+</p></div>
+
+</div>
+<div class="col-md-6">
+<!-- End Carousel Code, modal body -->
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Popbox is my team for the MHCI capstone project. We are currently working with Panasonic to help create a digital assistant to help combat childood obesity.
+We have a three-stage process in an eight-month time frame to develop a high fidelity conceptual prototype. 
+The first stage is research, the second is ideation and visioning, and the third is an iterative design cycle. 
+</p>
+<br><br>
+<b class="orange">WHAT IS THE RESEARCH YOU DID?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+We spent a large portion of the spring semester in the first phase 
+where we studied user needs and behaviour in detail. We conducted a literature review, competitive analysis and went out into to the field to talk to families,
+caregivers and subject matter experts.</p>
+<br><br>
+<b class = "orange">WHAT IS THE NEXT STEP?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Currently we are in the visioning and protyping phase. We are following an iterative design process where we make low-fidelity protypes and test them with real users.
+We then make changes based on the feedback we get and repeat the cycle again. 
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
+   </div>   
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">CALL VIZ</font></b></p></center>
+
+      </div>
+	  
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-pop" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
@@ -888,28 +1276,60 @@ Players need to keep the ball in play by not letting it hit the horizontal scree
 
 <!-- Wrapper for slides -->
 <div class="carousel-inner">
-<div class="item active"><img class="tickolo" src="imgs/popbox.png"></div>
+<div class="item active"><img class="tickolo" src="imgs/callviz.png"></div>
 </div><!-- Controls -->
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>April 2014 <br>
+<b class="orange">Worked with </b> HTML, Javascript, JSON
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>Software programmer, Designer<br>
+<b class="orange">Worked Under: </b><a href="http://sauvik.me/" target="_blank">Sauvik Das</a>, <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">Jason Hong</a>
+</p></div>
+
+</div>
+<div class="col-md-5">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> Jan 2014  <span style="float:right;"><b class="orange"> </b></span>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Call Viz is a visualisation for phone and communication logs. It is a mobile based web application which shows the user the people he is in contact with over a
+time range. Currently, the visualisation shows SMS and phone communication.</p>
 <br><br>
-Popbox is our team for the MHCI capstone project. We will be working with Panasonic to help create a digital assistant to help children with special needs.
-This project in ongoing and the pictures above show pictures of our initial work and brochure. </p>
-   </div>
-   <div class="modal-footer">
-   </div>
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The mobile phone contains a large amount of information about the user. Most people do not realise the kind of data it can collect and hence are not aware 
+of the potential and problems this might cause. Visualising this data provides the user insightful knowledge about himself. </p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Call Viz uses the Javascript library D3 (Data Driven Documents). It uses a force driven layout were users can interact with nodes and links.
+The images seen on the left are screen shots of web pages.
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
+   </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
 
 <div class="modal fade" id="hykeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<b class="orange"><center>UNIVERSITY RIDE-SHARING APPLICATION</center></b>
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">Hyke</font></b> - University ride-sharing application</p></center>
+
       </div>
-<div class="modal-body">
+	  
+<div class="modal-body row">
+<div class="col-md-7">
 <div id="carousel-hyke" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 
@@ -929,20 +1349,133 @@ This project in ongoing and the pictures above show pictures of our initial work
 <div class="item"><img src="imgs/mock2.png"></div>
 <div class="item"><img src="imgs/mock3.png"></div>
 </div><!-- Controls -->
-<a class="left carousel-control" href="#carousel-hyke" data-slide="prev"></a> <a class="right carousel-control" href="#carousel-hyke" data-slide="next"></a>
+<a class="left carousel-control" href="#carousel-hyke" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-hyke" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
 </div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>March 2014 <br>
+<b class="orange">Worked with </b>Adobe Illustrator, Photoshop
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>UX designer <br>
+<b class="orange">Team mates: </b><a href="http://pavelsamsonov.com/" target="_blank">Pavel</a>, <a href="http://sarah-gottfried.com/" target="_blank">Sarah</a>
+</p></div>
+
+</div>
+<div class="col-md-5">
 <!-- End Carousel Code, modal body -->
-<p><b class="orange">Date</b> March 2014  <span style="float:right;"><b class="orange"> </b></span>
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+Hyke is a ride sharing application which encourages university students to ride share in exchange for discounts at
+Target and university parking. </p>
 <br><br>
-I was part of a 3 member team who designed Hyke, a ride sharing application which encourages university students to ride share in exchange for discounts at
-Target and university parking. We started initially with wireframes and went on to design the high fidelity mockups as well. We also designed a user dashboard
-to monitor how people are using the application.</p>
-   </div>
-   <div class="modal-footer">
-   </div>
+<b class="orange">WHY WAS IT MADE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+
+Hyke was a prototype made as an assignment for the course 'Interaction Design Studio'. Through user research, we found that university students feel much safer
+sharing rides with other university students. Universities also spend a huge amount of money for transport for its students. By giving students discounted parking,
+universities can encourage students to share rides.   
+</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+We started initially with wireframes and went on to design the high fidelity mockups as well. We also designed a user dashboard
+to monitor how people are using the application. 
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
+   </div>   
 </div><!-- /.modal-content -->
 </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<div class="modal fade" id="bamModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<center><p class="pmodal"><b class="orange"><font size="4">Bicycle Air Monitoring Project</font></b></p></center>
+
+      </div>
+	  
+<div class="modal-body row">
+<div class="col-md-6">
+<div id="carousel-bam" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+
+<ol class="carousel-indicators">
+    <li data-target="#carousel-bam" data-slide-to="0" class="active"></li>
+	<li data-target="#carousel-bam" data-slide-to="1"></li>
+	<li data-target="#carousel-bam" data-slide-to="2"></li>
+	<li data-target="#carousel-bam" data-slide-to="3"></li>
+	<li data-target="#carousel-bam" data-slide-to="4"></li>
+	<li data-target="#carousel-bam" data-slide-to="5"></li>
+	<li data-target="#carousel-bam" data-slide-to="6"></li>
+	<li data-target="#carousel-bam" data-slide-to="7"></li>
+	<li data-target="#carousel-bam" data-slide-to="8"></li>
+	<li data-target="#carousel-bam" data-slide-to="9"></li>
+  </ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active"><img src="imgs/bamp1.jpg"></div>
+<div class="item"><img src="imgs/bamp2.jpg"></div>
+<div class="item"><img src="imgs/bamp3.jpg"></div>
+<div class="item"><img src="imgs/bamp4.jpg"></div>
+<div class="item"><img src="imgs/bamp5.jpg"></div>
+<div class="item"><img src="imgs/bamp6.jpg"></div>
+<div class="item"><img src="imgs/bamp7.jpg"></div>
+<div class="item"><img src="imgs/bamp8.jpg"></div>
+<div class="item"><img src="imgs/bamp9.jpg"></div>
+</div><!-- Controls -->
+<a class="left carousel-control" href="#carousel-bam" data-slide="prev"><span class="glyphicon glyphicon-circle-arrow-left"></span></a> <a class="right carousel-control" href="#carousel-bam" data-slide="next"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+</div>
+<div class="col-md-7">
+<p class="pmodal">
+<b class="orange">Date: </b>March 2014 <br>
+<b class="orange">Worked with </b>Axure RP, Adobe Illustrator, inDesign
+</p></div><div class="col-md-5">
+<p class="pmodal">
+<b class="orange">Role: </b>UX designer <br>
+<b class="orange">Team mates: </b><a href="http://ramyamallya.com/" target="_blank">Ramya Mallya</a>, <a href="http://www.philipmarchetti.com/" target="_blank">Phillip Marchetti</a>, <a href="http://www.andrele.com" target="_blank">Andre Le</a> 
+</p></div>
+
+</div>
+<div class="col-md-6">
+<!-- End Carousel Code, modal body -->
+<br>
+<b class="orange">WHAT IS IT?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+The Bicycle Air Monitoring Project is run by the Group Against Smog and Pollution(GASP) and measures air particulate matter count in Pittsburgh.
+Air monitors are mounted on bikes and volunteers collect data on their daily routes. This data is then represented on a map to provide insights on the level of pollution in Pittsburgh.</p>
+<br><br>
+<b class="orange">HOW DID WE HELP?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+
+GASP approached us wanting a more user-centred approach to the Bicycle Air Monitoring Project. Over the course of a semester we determined the target audience
+and re-designed the map so as to make the biggest impact on the Pittsburgh community. The end result was a more compelling map which facilitated a dialogue and gave accurate recommendations
+to the residents of Pittsburgh.      
+</p>
+<br><br>
+<b class = "orange">HOW WAS IT DONE?</b>
+<p class="pmodal" style="padding: 10px 0 0 0">
+We conducted surveys, interviews and did an extensive literature review to understand who the target audience would be for this map. We then did a Heuristic Evaluation
+of the existing system and noted down ways that we could improve it. After 5 rounds of iterative design, we delivered a high-fidelity Axure prototype along with design specs to take the project forward.
+</p>
+
+</div>
+
+</div>
+<div class="modal-footer">
+   </div>   
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 
 </body>
 </html>

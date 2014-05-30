@@ -83,6 +83,20 @@ p{
 	
 }
 
+.modal-bodyplay > p{
+	
+	font-size: 1em;
+	color: #333;
+	color: rgba(0,0,0,0.7);
+	
+}
+
+.pmodal{
+	font-size: 1em;
+	color: #333;
+	color: rgba(0,0,0,0.7);
+}
+
 .shiftright{
 text-align: right;
 }
@@ -91,6 +105,11 @@ color: #f36621;
 }
 
 .modal-body img{
+padding: 0px 0px 20px 0px;
+border: 0;
+}
+
+.modal-bodyplay img{
 padding: 0px 0px 20px 0px;
 border: 0;
 }
@@ -129,13 +148,13 @@ background-size: cover;
 	margin: 10px;
 	color: #000;
 	background:#fff;
-	background: rgba(255,255,255, 0.5);
+	background: rgba(0,0,0, 0.5);
 	-webkit-border-radius: 7px; 
             border-radius: 7px; 
 }
 #menu li.active{
 	background:#666;
-	background: rgba(0,0,0, 0.5);
+	background: rgba(255,255,255, 0.1);
 	color: #fff;
 }
 #menu li a{
